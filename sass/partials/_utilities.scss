@@ -1,0 +1,28 @@
+/*
+ * Title: utilities.css
+ * Date: Aug 15, 2013
+ * Revised:
+ * Author: dave@wilderdrums.com
+ * Website: lr.lean2logix.com
+ * Description: This file provides generic styling tools.
+ */
+
+/* Image replacement */
+.replace {
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+[class*=hidden] {
+	display: none;
+}
+
+/* .group clears the next block */
+.group:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}

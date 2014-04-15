@@ -1,0 +1,85 @@
+#grid
+	position: relative
+	z-index: 90
+	width: 100%
+	top: -20px
+	@media (min-width: $break-large)
+		width: $break-large
+		margin: 0 auto
+	
+.tile
+	float: left
+	width: 50%
+	@media (min-width: $break-small)
+		width: 33.3333333333%
+	@media (min-width: $break-medium)
+		width: 25%
+
+.tile-inner
+	position: relative
+	float: left
+	margin: 5px
+	overflow: hidden
+	background: #f0f0f0
+	box-shadow: 0 2px 6px rgba(0,0,0,.7)
+
+.tile a
+	display: block
+	
+.tile-img
+	position: relative
+	float: left
+	margin: 5px
+
+.tile-img img
+	width: 100%
+
+.tile-overlay
+	position: absolute
+	bottom: 0
+	width: 100%
+	height: auto
+	background: rgba(255,255,255,.9)
+
+.tile-overlay-content
+	margin: 10px
+
+.tile-icon
+	position: absolute
+	top: 10px
+	left: 10px
+	
+.tile h2
+	margin: 16px 10px 10px 34px
+	font-family: gill sans, helvetica, arial, sans serif
+	text-transform: uppercase
+
+.tile-summary
+	display: none
+	margin: 1em 0 0 0
+	
+.tile-action
+	display: none
+	position: absolute
+	bottom: 10px
+
+.tile-social
+	float: left
+	padding: 5px
+	position: relative
+
+.tile-social-inner
+	position: relative
+	padding: 0 0 101.2% 0
+	background: #fff
+	box-shadow: 0 2px 6px rgba(0,0,0,.7)
+
+a:hover .tile-social
+	background: rgba(255,255,255,.9)
+
+.tile-social-content
+	font-size: 112.5%
+	line-height: 1.3em
+	height: 0
+	
+	

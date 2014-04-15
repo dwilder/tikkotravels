@@ -1,0 +1,32 @@
+// @import url(http://fonts.googleapis.com/css?family=Amaranth:400,400italic,700);
+// @import url(http://fonts.googleapis.com/css?family=Capriola);
+
+// Font weights
+$light: 200;
+$regular: 400;
+$bold: 600;
+
+// Base font
+$base-font-family: Amaranth, Gill Sans, Helvetica, Arial, sans serif;
+$base-font-weight: $regular;
+$base-font-size: 16px;
+$base-line-height: 1.42857143em;
+$base-font-color: #333;
+
+// Title fonts
+$title-font-family: Capriola, Gill Sans, FF Legato, Helvetic, Arial, sans serif;
+$title-font-weight: $regular;
+
+// Breakpoints
+$break-tiny: 25em;
+$break-small: 34.375em;
+$break-medium: 51.5625em;
+$break-large: 70em;
+
+// Tikko Colors
+$color-primary: #E26930;
+$color-secondary: #7098C0;
+$color-terniary: #545554;
+
+// Borders
+$border-radius: 5px;

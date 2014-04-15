@@ -1,0 +1,81 @@
+#nav-button
+	position: absolute
+	top: 10px
+	right: 10px
+	padding: 0
+
+#nav-button a
+	display: block
+	padding: .5em
+	text-decoration: none
+	font-family: $base-font-family
+	border: 1px solid $color-secondary
+	border-radius: $border-radius
+	background: lighten($color-terniary, 55%)
+	@media (min-width: $break-small)
+		display: none
+	
+#nav-panel
+	display: none
+	position: absolute
+	left: 100%
+	top: 0
+	@media (min-width: $break-small)
+		display: block
+		position: static
+		float: left
+		bottom: 0
+		left: 247px
+
+#nav-main
+	@media (min-width: $break-small)
+		position: absolute
+		bottom: 12px
+		left: 227px
+	@media (min-width: $break-medium)
+		bottom: 12px
+	@media (min-width: $break-large)
+		bottom: 15px
+		
+#nav-main li
+	@media (min-width: $break-small)
+		float: left
+		margin: 0 2px 0 2px
+
+#nav-main li a
+	display: block
+	padding: .5em 0 .5em 0
+	text-decoration: none
+	color: #666
+	font-size: 125%
+	text-transform: lowercase
+	border-radius: $border-radius
+	@media (min-width: $break-small)
+		padding: 5px 12px 7px 12px
+	@media (min-width: $break-medium)
+		padding: 5px 18px 7px 18px
+
+
+#nav-main li a:hover,
+#nav-main li a:focus
+	color: $color-secondary
+	background: rgba(0,0,0,.1)
+
+#nav-main li a:active
+	color: $color-secondary
+	background: rgba(0,0,0,.2)
+
+#nav-social
+	position: absolute
+	top: 10px
+	right: 10px
+	
+#nav-social li
+	@media (min-width: $break-small)
+		float: left
+		margin: 0 0 0 5px
+
+.nav-social-text
+	@media (min-width: $break-small)
+		display: none
+		
